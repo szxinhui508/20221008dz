@@ -1063,7 +1063,263 @@
    "ext": "ab7de46e476d4a78b5ab562b6e87ed0c",
    "plugin": "https://ghproxy.com/https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar"
   },
-
+{
+   "key": "MBO影视",
+   "name": "MBO影视(聚)",
+   "type": 0,
+   "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml/",
+   "searchable": 0,
+   "quickSearch": 0
+  }
+ ],
+ "parses": [
+  {
+   "name": "🌐Ⓤ",
+   "type": 0,
+   "url": "",
+   "header": {
+    "User-Agent": "Mozilla/5.0"
+   }
+  },
+  {
+   "name": "🌀Ⓙ",
+   "type": 1,
+   "url": "",
+   "header": {
+    "User-Agent": "Mozilla/5.0"
+   }
+  },
+  {
+   "name": "轮询",
+   "type": 2,
+   "url": "Sequence",
+   "header": {
+    "User-Agent": "Mozilla/5.0"
+   }
+  },
+  {
+   "name": "并发",
+   "type": 2,
+   "url": "Parallel",
+   "header": {
+    "User-Agent": "Mozilla/5.0"
+   }
+  },
+  {
+   "name": "168",
+   "url": "https://drpy.owen10086.repl.co/parse/api/168.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "无名",
+   "url": "https://drpy.owen10086.repl.co/parse/api/无名.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "江湖",
+   "url": "https://drpy.owen10086.repl.co/parse/api/江湖.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "酷云",
+   "url": "https://drpy.owen10086.repl.co/parse/api/酷云.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "鸿途",
+   "url": "https://drpy.owen10086.repl.co/parse/api/鸿途.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "91",
+   "url": "http://91fanli.top/m3u8/?url=",
+   "type": 0,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "BT5V",
+   "url": "https://rx.bt5v.com/json/jsonindex.php/?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
      "腾讯",
      "youku",
      "优酷",
